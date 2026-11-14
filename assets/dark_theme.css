@@ -1,0 +1,296 @@
+/* =========================================================
+   DARK THEME PALETTE
+========================================================= */
+html,
+body,
+[data-testid="stAppViewContainer"],
+.stApp {
+    background-color: #0b0f15 !important;
+    color: #f8fafc !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f8fafc !important;
+}
+
+p, span, label, div {
+    color: #cbd5e1;
+}
+
+strong, b {
+    color: #f8fafc;
+}
+
+a {
+    color: #60a5fa !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #101722 !important;
+    border-right: 1px solid #1e293b !important;
+}
+
+[data-testid="stSidebar"] ::-webkit-scrollbar-track {
+    background: #101722;
+}
+
+[data-testid="stSidebar"] ::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 10px;
+}
+
+.brand-title {
+    color: #ffffff !important;
+}
+
+.brand-subtitle {
+    color: #60a5fa !important;
+}
+
+.my-divider {
+    background: #1e293b !important;
+}
+
+.my-section-title {
+    color: #64748b !important;
+}
+
+/* Sidebar navigation buttons */
+[data-testid="stSidebar"] button[kind="secondary"],
+[data-testid="stSidebar"] .stButton > button {
+    background-color: transparent !important;
+    color: #cbd5e1 !important;
+    border: 1px solid transparent !important;
+}
+
+[data-testid="stSidebar"] button[kind="secondary"]:hover,
+[data-testid="stSidebar"] .stButton > button:hover {
+    background-color: #1b2637 !important;
+    color: #ffffff !important;
+    border-color: #273549 !important;
+}
+
+[data-testid="stSidebar"] .stButton > button p,
+[data-testid="stSidebar"] .stButton > button span {
+    color: #cbd5e1 !important;
+}
+
+[data-testid="stSidebar"] button[kind="primary"] {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+    border: 1px solid #2563eb !important;
+}
+
+[data-testid="stSidebar"] button[kind="primary"] p,
+[data-testid="stSidebar"] button[kind="primary"] span {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+/* Cards & Containers */
+.score-card {
+    background-color: #151d2a !important;
+    border: 1px solid #273549 !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;
+}
+
+.score-card-title {
+    color: #94a3b8 !important;
+}
+
+.score-card-value {
+    color: #f8fafc !important;
+}
+
+.score-card-subtext {
+    color: #94a3b8 !important;
+}
+
+.progress-container {
+    background-color: #1e293b !important;
+}
+
+.roadmap-card {
+    background-color: #151d2a !important;
+    border: 1px solid #273549 !important;
+}
+
+.roadmap-title {
+    color: #f8fafc !important;
+}
+
+.roadmap-title.completed {
+    color: #64748b !important;
+}
+
+.roadmap-step-counter {
+    color: #64748b !important;
+}
+
+.roadmap-progress-summary {
+    color: #94a3b8 !important;
+}
+
+.file-detail-card {
+    background-color: rgba(30, 41, 59, 0.6) !important;
+    border: 1px solid #334155 !important;
+}
+
+.file-detail-label {
+    color: #94a3b8 !important;
+}
+
+.file-detail-val {
+    color: #f8fafc !important;
+}
+
+.file-detail-val.val-blue { color: #60a5fa !important; }
+.file-detail-val.val-green { color: #10b981 !important; }
+.file-detail-val.val-amber { color: #f59e0b !important; }
+
+/* Metrics */
+[data-testid="stMetric"] {
+    background-color: #151d2a !important;
+    border: 1px solid #273549 !important;
+}
+
+[data-testid="stMetricLabel"] * {
+    color: #94a3b8 !important;
+}
+
+[data-testid="stMetricValue"] * {
+    color: #f8fafc !important;
+}
+
+/* Expanders */
+[data-testid="stExpander"] {
+    background-color: #151d2a !important;
+    border: 1px solid #273549 !important;
+}
+
+[data-testid="stExpander"] summary,
+[data-testid="stExpander"] summary * {
+    color: #f8fafc !important;
+}
+
+[data-testid="stExpander"] [data-testid="stExpanderDetails"] {
+    background-color: #151d2a !important;
+    color: #cbd5e1 !important;
+}
+
+/* Inputs & Textarea */
+textarea, input[type="text"], input[type="password"] {
+    background-color: #111827 !important;
+    color: #f8fafc !important;
+    border: 1px solid #334155 !important;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #3b82f6 !important;
+    box-shadow: 0 0 0 1px #3b82f6 !important;
+}
+
+textarea:disabled {
+    background-color: #0d131d !important;
+    color: #94a3b8 !important;
+}
+
+/* File Uploader */
+[data-testid="stFileUploader"] {
+    background-color: #111827 !important;
+    border: 1px dashed #475569 !important;
+}
+
+[data-testid="stFileUploader"] * {
+    color: #cbd5e1 !important;
+}
+
+/* Dropdowns / Selectboxes */
+[data-baseweb="select"] {
+    background-color: #111827 !important;
+    border: 1px solid #334155 !important;
+}
+
+[data-baseweb="select"] * {
+    background-color: #111827 !important;
+    color: #f8fafc !important;
+}
+
+[data-baseweb="popover"], [data-baseweb="menu"], [data-baseweb="menu"] * {
+    background-color: #151d2a !important;
+    color: #f8fafc !important;
+}
+
+/* Tabs */
+[data-testid="stTabs"] button[role="tab"] {
+    color: #94a3b8 !important;
+}
+
+[data-testid="stTabs"] button[aria-selected="true"] {
+    color: #60a5fa !important;
+    border-bottom: 2px solid #60a5fa !important;
+}
+
+/* Badges */
+.skill-badge {
+    background-color: #1e293b !important;
+    color: #93c5fd !important;
+    border: 1px solid #334155 !important;
+}
+
+.pillar-label {
+    color: #f8fafc !important;
+}
+
+.pillar-subtext {
+    color: #94a3b8 !important;
+}
+
+/* Interview Box */
+.interview-tip-box {
+    background-color: rgba(59, 130, 246, 0.08) !important;
+    border: 1px solid rgba(59, 130, 246, 0.25) !important;
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-bottom: 20px;
+}
+
+.interview-tip-title {
+    color: #60a5fa !important;
+}
+
+.interview-tip-text {
+    color: #cbd5e1 !important;
+}
+
+.interview-focus-box {
+    background-color: rgba(16, 185, 129, 0.08) !important;
+    border-left: 3px solid #10b981 !important;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 10px;
+}
+
+.interview-focus-title {
+    color: #10b981 !important;
+}
+
+.interview-focus-text {
+    color: #e2e8f0 !important;
+}
+
+/* Tables */
+[data-testid="stDataFrame"] {
+    border: 1px solid #273549 !important;
+    background-color: #151d2a !important;
+}
+
+[data-testid="stDataFrame"] * {
+    color: #f8fafc !important;
+}
+
+/* Divider */
+hr, [data-testid="stDivider"] {
+    border-color: #1e293b !important;
+}

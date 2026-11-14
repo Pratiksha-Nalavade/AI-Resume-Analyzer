@@ -1,0 +1,309 @@
+/* =========================================================
+   LIGHT THEME PALETTE
+========================================================= */
+html,
+body,
+[data-testid="stAppViewContainer"],
+.stApp {
+    background-color: #f8fafc !important;
+    color: #0f172a !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0f172a !important;
+}
+
+p, span, label, div {
+    color: #334155;
+}
+
+strong, b {
+    color: #0f172a;
+}
+
+a {
+    color: #2563eb !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #ffffff !important;
+    border-right: 1px solid #e2e8f0 !important;
+}
+
+[data-testid="stSidebar"] ::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+[data-testid="stSidebar"] ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+.brand-title {
+    color: #0f172a !important;
+}
+
+.brand-subtitle {
+    color: #2563eb !important;
+}
+
+.my-divider {
+    background: #e2e8f0 !important;
+}
+
+.my-section-title {
+    color: #64748b !important;
+}
+
+/* Sidebar navigation buttons */
+[data-testid="stSidebar"] button[kind="secondary"],
+[data-testid="stSidebar"] .stButton > button {
+    background-color: #f1f5f9 !important;
+    color: #0f172a !important;
+    border: 1px solid #e2e8f0 !important;
+}
+
+[data-testid="stSidebar"] button[kind="secondary"]:hover,
+[data-testid="stSidebar"] .stButton > button:hover {
+    background-color: #e2e8f0 !important;
+    color: #0f172a !important;
+    border-color: #cbd5e1 !important;
+}
+
+[data-testid="stSidebar"] .stButton > button p,
+[data-testid="stSidebar"] .stButton > button span {
+    color: #0f172a !important;
+}
+
+[data-testid="stSidebar"] button[kind="primary"] {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+    border: 1px solid #2563eb !important;
+}
+
+[data-testid="stSidebar"] button[kind="primary"] p,
+[data-testid="stSidebar"] button[kind="primary"] span {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+/* Cards & Containers */
+.score-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+}
+
+.score-card-title {
+    color: #64748b !important;
+}
+
+.score-card-value {
+    color: #0f172a !important;
+}
+
+.score-card-subtext {
+    color: #64748b !important;
+}
+
+.progress-container {
+    background-color: #e2e8f0 !important;
+}
+
+.roadmap-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03) !important;
+}
+
+.roadmap-title {
+    color: #0f172a !important;
+}
+
+.roadmap-title.completed {
+    color: #94a3b8 !important;
+}
+
+.roadmap-step-counter {
+    color: #64748b !important;
+}
+
+.roadmap-progress-summary {
+    color: #475569 !important;
+}
+
+.file-detail-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03) !important;
+}
+
+.file-detail-label {
+    color: #64748b !important;
+}
+
+.file-detail-val {
+    color: #0f172a !important;
+}
+
+.file-detail-val.val-blue { color: #2563eb !important; }
+.file-detail-val.val-green { color: #059669 !important; }
+.file-detail-val.val-amber { color: #d97706 !important; }
+
+/* Metrics */
+[data-testid="stMetric"] {
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+}
+
+[data-testid="stMetricLabel"] * {
+    color: #64748b !important;
+}
+
+[data-testid="stMetricValue"] * {
+    color: #0f172a !important;
+}
+
+/* Expanders */
+[data-testid="stExpander"] {
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+}
+
+[data-testid="stExpander"] summary,
+[data-testid="stExpander"] summary * {
+    color: #0f172a !important;
+}
+
+[data-testid="stExpander"] [data-testid="stExpanderDetails"] {
+    background-color: #ffffff !important;
+    color: #334155 !important;
+}
+
+/* Inputs & Textarea */
+textarea, input[type="text"], input[type="password"] {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    border: 1px solid #cbd5e1 !important;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 1px #2563eb !important;
+}
+
+textarea::placeholder, input::placeholder {
+    color: #94a3b8 !important;
+}
+
+textarea:disabled {
+    background-color: #f8fafc !important;
+    color: #475569 !important;
+}
+
+/* File Uploader */
+[data-testid="stFileUploader"] {
+    background-color: #ffffff !important;
+    border: 1px dashed #cbd5e1 !important;
+}
+
+[data-testid="stFileUploader"] * {
+    color: #334155 !important;
+}
+
+[data-testid="stFileUploader"] button {
+    background-color: #f1f5f9 !important;
+    color: #0f172a !important;
+    border: 1px solid #cbd5e1 !important;
+}
+
+/* Dropdowns / Selectboxes */
+[data-baseweb="select"] {
+    background-color: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+}
+
+[data-baseweb="select"] * {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+}
+
+[data-baseweb="popover"], [data-baseweb="menu"], [data-baseweb="menu"] * {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+}
+
+/* Tabs */
+[data-testid="stTabs"] button[role="tab"] {
+    color: #64748b !important;
+}
+
+[data-testid="stTabs"] button[aria-selected="true"] {
+    color: #2563eb !important;
+    border-bottom: 2px solid #2563eb !important;
+}
+
+/* Badges */
+.skill-badge {
+    background-color: #eff6ff !important;
+    color: #1d4ed8 !important;
+    border: 1px solid #bfdbfe !important;
+}
+
+.pillar-label {
+    color: #0f172a !important;
+}
+
+.pillar-subtext {
+    color: #64748b !important;
+}
+
+/* Interview Box */
+.interview-tip-box {
+    background-color: #eff6ff !important;
+    border: 1px solid #bfdbfe !important;
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-bottom: 20px;
+}
+
+.interview-tip-title {
+    color: #1d4ed8 !important;
+}
+
+.interview-tip-text {
+    color: #1e3a8a !important;
+}
+
+.interview-focus-box {
+    background-color: #f0fdf4 !important;
+    border-left: 3px solid #10b981 !important;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 10px;
+}
+
+.interview-focus-title {
+    color: #15803d !important;
+}
+
+.interview-focus-text {
+    color: #166534 !important;
+}
+
+/* Tables */
+[data-testid="stDataFrame"] {
+    border: 1px solid #e2e8f0 !important;
+    background-color: #ffffff !important;
+}
+
+[data-testid="stDataFrame"] * {
+    color: #0f172a !important;
+}
+
+/* Divider */
+hr, [data-testid="stDivider"] {
+    border-color: #e2e8f0 !important;
+}
